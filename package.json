@@ -1,0 +1,26 @@
+{
+  "name": "ughlangsupport",
+  "displayName": "UghLangSupport",
+  "description": "Keyword highlighting for Ugh",
+  "version": "0.0.1",
+  "publisher": "BiznesBear",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ugh",
+      "aliases": ["ugh", "ugh"],
+      "extensions": ["ugh"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ugh",
+      "scopeName": "source.ugh",
+      "path": "./syntaxes/ugh.tmLanguage.json"
+    }]
+  }
+}

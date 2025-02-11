@@ -4,6 +4,7 @@
   "description": "Keyword highlighting for Ugh",
   "version": "0.0.1",
   "publisher": "BiznesBear",
+  "repository": {"url": "https://github.com/BiznesBear/ughlangsupport"},
   "engines": {
     "vscode": "^1.97.0"
   },

@@ -2,7 +2,7 @@
   "name": "ughlangsupport",
   "displayName": "UghLangSupport",
   "description": "Keyword highlighting for Ugh",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "BiznesBear",
   "repository": {"url": "https://github.com/BiznesBear/ughlangsupport"},
   "engines": {
@@ -11,6 +11,18 @@
   "categories": [
     "Programming Languages"
   ],
+  "configuration": {
+    "type": "object",
+    "title": "Example configuration",
+    "properties": {
+        "languageServerExample.maxNumberOfProblems": {
+            "scope": "resource",
+            "type": "number",
+            "default": 100,
+            "description": "Controls the maximum number of problems produced by the server."
+        }
+    }
+  },
   "contributes": {
     "languages": [{
       "id": "ugh",

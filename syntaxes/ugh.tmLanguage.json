@@ -14,7 +14,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ugh",
-				"match": "\\b(print|input|free|true|false|fun|break|return|if|else|elif|repeat|while|foreach|insert|local|assembly|as|from|null|def)\\b"
+				"match": "\\b(print|input|free|true|false|fun|break|return|if|else|elif|repeat|while|foreach|insert|local|assembly|as|from|null|def|object)\\b"
 			}]
 		},
 		"operators": {
